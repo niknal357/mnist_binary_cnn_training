@@ -1,0 +1,1 @@
+This is a dump of all the files I used to train my binary convolutional neural network for the MNIST dataset. After training the model, I built the circuit inside of Scrap Mechanic using logic gates, as that was the goal of the project. https://steamcommunity.com/sharedfiles/filedetails/?id=3486250373
