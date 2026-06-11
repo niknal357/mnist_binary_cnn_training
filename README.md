@@ -1,1 +1,2 @@
 This is a dump of all the files I used to train my binary convolutional neural network for the MNIST dataset. After training the model, I built the circuit inside of Scrap Mechanic using logic gates, as that was the goal of the project. https://steamcommunity.com/sharedfiles/filedetails/?id=3486250373
+The network starts with 32 5x5 convolutional kernels as the first layer the output of which is clamped to {-1, 1}. The network then has a single-layer perceptron layer which maps the 32x12x12 convolution output to the 10 confidence scores from 0-9.
